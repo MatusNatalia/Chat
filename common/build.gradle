@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.cft.focus'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('com.fasterxml.jackson.core:jackson-core:2.6.3')
+    implementation('com.fasterxml.jackson.core:jackson-databind:2.12.7.1')
+}
+
+test {
+    useJUnitPlatform()
+}
