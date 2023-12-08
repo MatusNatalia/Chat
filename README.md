@@ -1,3 +1,3 @@
 # Chat
 Клиент-серверное приложение – чат с ui-интерфейсом клиента
-Java, Swing, Jackson
+(Java, Swing, Jackson)
